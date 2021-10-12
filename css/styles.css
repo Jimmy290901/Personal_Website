@@ -20,14 +20,28 @@ body {
 }
 
 h1 {
+    font-size: 4.375rem;
     margin-top: 0%;
+    color: #66BFBF;
 }
 
+h2{
+    font-size: 2.5rem;
+    color: #66BFBF;
+}
+
+h3, a{
+    color: #11999E;
+}
 
 .top-container {
     background-color: #E4F9F5;
     position: relative; /*to make clouds relative to the container*/
     padding-top: 150px;
+}
+
+.top-container h2{
+    font-weight: normal;
 }
 
 .cloud-above {
@@ -39,5 +53,24 @@ h1 {
 .cloud-below {
     position: absolute;
     left: 20%;
-    bottom: 50%;
+    bottom: 45%;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.django-img {
+    width: 18%;
+    float: left;
+    margin-right: 30px;
+}
+
+.dbms-img {
+    width: 18%;
+    float: right;
+    margin-left: 30px;
 }
