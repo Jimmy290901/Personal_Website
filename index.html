@@ -3,105 +3,60 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Shubham's Personal Website</title>
+        <title>Shubham Jain - a web developer</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/styles.css">
-
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet"> 
     </head>
     <body>
-        <!--Profile Header-->
-        <table cellspacing="20">
-            <tr>
-                <td><img src="images/Profile_Pic_Circular.png" alt="Shubham's Profile Photo"></td>
-                <td>
-                    <h1>Shubham Jain</h1>
-                    <p><em>Sophomore at <strong><a href="https://ahduni.edu.in/">Ahmedabad University</a></strong>.</em></p>
-                </td>
-            </tr>
-        </table>
-        <!--Adding Bio-->
-        <p>
-        I am a 2nd year student pursuing my bachelors in Computer Science and Engineering at Ahmedabad University. I am a competitive 
-        programmer and a web developer as well. I like exploring new technologies and building useful projects using them.
-        I love reading books and enjoy blogging.
-        </p>
-        <!--Horizontal Line-->
-        <hr>
-        <!--Adding Education (Lists)-->
-        <h3>Education</h3>
-        <ul>
-            <li>School of Engineering and Applied Science, Ahmedabad University</li>
-                <ul>
-                    <li>Bachelor of Technology, Computer Science and Engineering</li>
-                    <li>CGPA: 3.8/4</li>
-                </ul>
-            <li>Maharaja Agrasen Vidyalaya, Ahmedabad (2015-2019)</li>
-                <ul>
-                    <li>10th SSC CBSE Boards - CGPA: 10/10</li>
-                    <li>12th HSC CBSE Boards (Science) - Percentage: 95.2%</li>
-                </ul>
-            <li>St. Paul's Higher Secondary School, Indore (2005-2015)</li>
-        </ul>
-        <hr>
-        <!--Adding Hobies (Lists)-->
-        <h3>Hobbies</h3>
-        <ol>
-            <li>Reading and Writing mindful <a href="https://medium.com/@shubham290901">blogs</a></li>
-            <li>Humming while listening to music</li>
-            <li>Reading fictional and non-fictional books</li>
-            <li>Playing cricket and football</li>
-        </ol>
-        <hr>
-        <!--Adding Skills (Tables)-->
-        <h3>Skills</h3>
-        <table border="1px">
-            <tr>
-                <td>
-                    <table cellspacing="10">
-                        <tr>
-                            <td>C++ Programming</td>
-                            <td>🌟🌟🌟🌟</td>
-                        </tr>
-                        <tr>
-                            <td>Java Programming</td>
-                            <td>🌟🌟🌟🌟</td>
-                        </tr>
-                        <tr>
-                            <td>React JS</td>
-                            <td>🌟🌟🌟</td>
-                        </tr>
-                        <tr>
-                            <td>Flask</td>
-                            <td>🌟🌟🌟🌟</td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <table cellspacing="10">
-                        <tr>
-                            <td>SQL</td>
-                            <td>🌟🌟🌟🌟</td>
-                        </tr>
-                        <tr>
-                            <td>C Programming</td>
-                            <td>🌟🌟🌟🌟</td>
-                        </tr>
-                        <tr>
-                            <td>Django</td>
-                            <td>🌟🌟🌟</td>
-                        </tr>
-                        <tr>
-                            <td>Python Programming</td>
-                            <td>🌟🌟🌟🌟</td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <!--Linking Contact Me Page-->
-        <h3><a href="contact.html">Contact Me</a></h3>
+        <div class="top-container">
+            <img class="cloud-above" src="images/cloud.png" alt="Clouds">            
+            <h1>I'm Shubham</h1>
+            <h3>a web developer</h3>
+            <img class="cloud-below" src="images/cloud.png" alt="Clouds">
+            <img src="images/mountain.png" alt="Mountain">
+        </div>
+        <div class="middle-container">
+            <div class="profile">
+                <img src="images/Profile_Pic_Circular.png" alt="My Photu">
+                <h2>Hello.</h2>
+                <p>I am a junior CSE student at Ahmedabad University. <br> I love doing web development and exploring new facets of technology.</p>
+            </div>
+            <hr>
+            <div class="skills">
+                <h2>My Skills.</h2>
+                <div class="skill-row">
+                <img class="" src="images/python.png" alt="Django">
+                <h3>Python + Django</h3>
+                <p>Skilled in using Python + Django in developing dynamic websites.</p>
+                </div>
+                <div class="skill-row">
+                <img class="" src="images/database.png" alt="Database">
+                <h3>Database Management Systems</h3>
+                <p>Proficient in various RDBMS like MySQL, Oracle SQL, SQLite3.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="contact-me">
+                <h2>Get In Touch</h2>
+                <h3>If you love bilding amazing, beautiful and useful websites.</h3>
+                <p>Drop me a mail or connect with me on social media!</p>
+                <a class="btn" href="mailto:shubham290901@gmail.com">CONTACT ME</a>
+            </div>
+            </div>
+
+
+            <div class="bottom-container">
+            <a class="footer-link" href="https://www.linkedin.com/in/shubham-jain-ba5218193/">LinkedIn</a>
+            <a class="footer-link" href="https://twitter.com/Jimmy290901">Twitter</a>
+            <!--<a class="footer-link" href="https://www.appbrewery.co/">Website</a>-->
+            <p>© 2021 Shubham Jain</p>
+            </div>
         <script src="" async defer></script>
     </body>
 </html>
